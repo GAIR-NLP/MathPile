@@ -2,12 +2,12 @@
 
 This is the official repository for [Generative AI for Math: Part I - MathPile: A Billion-Token-Scale Pretraining Corpus for Math]()
 
-[**Homepage**]() |
-[**Datasets**]() | 
+[**Homepage**](https://gair-nlp.github.io/MathPile/) |
+[**Datasets**](https://huggingface.co/datasets/GAIR/MathPile) | 
 [**Paper**]() | 
-[**Limitations**]() |
-[**Statement & License**]() |
-[**Citation**]() 
+[**Limitations**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#limitations) |
+[**Statement & License**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#statements--license) |
+[**Citation**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#citation) 
 
 > Please be aware that our corpus could be updated (we will notify upon release). It is advisable to use the latest version.
 

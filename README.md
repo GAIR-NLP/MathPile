@@ -38,7 +38,7 @@ High-quality, large-scale corpora are the cornerstone of building powerful found
 
 <div align="center">
 <!-- <img src=https://github.com/GAIR-NLP/MathPile/assets/46218454/8486ce7a-3036-4ede-867f-9e61038dcc70 width=70%/> -->
-  <img src="./static/images/mathpile-overview.png" width=70%/>
+  <img src="./static/images/mathpile-overview.png" width=75%/>
 </div>
 
 <p>

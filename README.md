@@ -58,7 +58,7 @@ We hope our MathPile can help to enhance the mathematical reasoning abilities of
 - We have done our utmost to ensure the high quality and lawful use of the data. However, unforeseen issues may still arise, including but not limited to data security concerns and any risks or problems stemming from misuse. We shall not be held responsible for any such issues.
 
 
-If the source data of MathPile is governed by a license more restrictive than [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en), MathPile adheres to that stricter licensing. In all other cases, it operates under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license. 
+If the source data of MathPile is governed by a license more restrictive than [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en), MathPile adheres to that stricter licensing. In all other cases, it operates under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license. We also plan to release a commercially usable version of the dataset soon.
 
 
 

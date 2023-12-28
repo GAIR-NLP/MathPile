@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Math, Language Models, NLP, Reasoning">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Generative AI for Math: Part I MATHPILE: A Billion-Token-Scale Pretraining Corpus for Math</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/mathpile-logo-2.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://github.com/GAIR-NLP/">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://github.com/GAIR-NLP/abel">
+            Abel
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Generative AI for Math: <i>MathPile</i></h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=qLS4f-8AAAAJ&hl=en">Zengzhi Wang</a><sup>3,4</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=Znde6gwAAAAJ&hl=en">Rui Xia</a><sup>3</sup>,</span>
+              <span class="author-block">
+              <a href="https://plms.ai/people/index.html">Pengfei Liu</a><sup>1,2,4</sup>
+            </span>
+            <!-- <span class="author-block">
+              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+            </span> -->
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University,</span>
+            <span class="author-block"><sup>2</sup>Shanghai Artificial Intelligence Laboratory,</span>
+            <span class="author-block"><sup>3</sup>Nanjing University of Science and Technology,</span>
+            <span class="author-block"><sup>4</sup>Generative AI Research Lab (GAIR)</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="./static/mathpile-preprint.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv (TBA)</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/GAIR-NLP/MathPile"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/GAIR/MathPile"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Datasets</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">🚀 Brief Introduction</h2>
+        <div class="content has-text-justified">
+          <p>
+            High-quality, large-scale corpora are the cornerstone of building powerful foundation models. In this work, we introduce <b>MathPile</b> a diverse and high-quality math-centric corpus comprising about 9.5 billion tokens. our work is significantly different from the previous work in the following characteristics:
+          </p>
+
+          <div align="center">
+            <img src="static/images/mathpile-features.png" width=55%/>
+          </div>
+            
+
+          <ul>
+            <li><b>Math-centric: </b>MathPile uniquely caters to the math domain, unlike general domain-focused corpora like Pile and RedPajama, or multilingual-focused ones like ROOTS and The Stack. While there are math-centric corpora, they're often either closed-sourced, like Google's Minerva and OpenAI's MathMix, or lack diversity, such as ProofPile and OpenWebMath.</li>
+            <li><b>Diversity: </b>MathPile draws from a wide range of sources: <b>Textbooks</b> (including lecture notes), <b>arXiv</b>, <b>Wikipedia</b>, <b>ProofWiki</b>, <b>StackExchange</b>, and <b>Web Pages</b>. It encompasses mathematical content suitable for K-12, college, postgraduate levels, and math competitions. <b>This diversity is a first, especially with our release of a significant collection of high-quality textbooks (~0.19B tokens).</b></li>
+            <li><b>High-Quality: </b>We adhered to the principle of less is more, firmly believing in the supremacy of data quality over quantity, even in the pre-training phase. Our meticulous data collection and processing efforts included a complex suite of preprocessing, prefiltering, cleaning, filtering, and deduplication, ensuring the high quality of our corpus. </li>
+            <li><b>Data Documentation: </b>To enhance transparency, we've extensively documented MathPile. This includes a <b>dataset sheet</b> (see Table 5 in our paper) and <b>quality annotations</b> for web-sourced documents, like language identification scores and symbol-to-word ratios. This gives users flexibility to tailor the data to their needs. We've also performed <b>data contamination detection</b> to eliminate duplicates from benchmark test sets like MATH and MMLU-STEM.</li>
+          </ul>
+
+
+          <div align="center">
+            <img src="static/images/mathpile-overview.png" width=90%/>
+          </div>
+
+          <p>
+            We hope our MathPile can help to enhance the mathematical reasoning abilities of language models. See our paper for more technical details.
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div> -->
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-fullbody">
+          <img  src="./static/images/stackexchange-case.png" >
+        </div>
+        <div class="item item-steve">
+          <img src="./static/images/arXiv-case.png">
+        </div>
+        <div class="item item-chair-tp">
+          <img src="./static/images/cc-textbooks.png">
+        </div>
+        <div class="item item-fullbody">
+          <!-- <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/fullbody.mp4"
+                    type="video/mp4">
+          </video> -->
+          <img  src="./static/images/stackexchange-case.png" >
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">👊Statements & License</h2>
+        <div class="content has-text-justified">
+          <p>
+            These invaluable corpora are the culmination of human intellect and should be utilized for the betterment of humanity, aiding in the improvement of human life. <b>We strongly urge all users to refrain from using our corpus for any activities that may harm national or social security or violate the law.</b>
+          </p>
+
+          <p>
+            We have done our utmost to ensure the high quality and lawful use of the data. However, unforeseen issues may still arise, including but not limited to data security concerns and any risks or problems stemming from misuse. We shall not be held responsible for any such issues.
+          </p>
+
+          <p>
+            If the source data of MathPile is governed by a license more restrictive than <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">BY-NC-SA 4.0 license</a>, MathPile adheres to that stricter licensing. In all other cases, it operates under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">BY-NC-SA 4.0 license</a>. We also plan to release a commercially usable version of the dataset soon.
+          </p>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>TBA</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="./static/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

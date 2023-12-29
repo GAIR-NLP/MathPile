@@ -4,7 +4,7 @@ This is the official repository for [Generative AI for Math: Part I - MathPile: 
 
 [**Homepage**](https://gair-nlp.github.io/MathPile/) |
 [**Datasets**](https://huggingface.co/datasets/GAIR/MathPile) | 
-[**Paper**]() | 
+[**Paper**](https://arxiv.org/abs/2312.17120) | 
 [**Limitations**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#limitations) |
 [**Statement & License**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#statements--license) |
 [**Citation**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#citation) 

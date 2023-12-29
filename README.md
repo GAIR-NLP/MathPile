@@ -4,7 +4,7 @@ This is the official repository for [Generative AI for Math: Part I - MathPile: 
 
 [**Homepage**](https://gair-nlp.github.io/MathPile/) |
 [**Datasets**](https://huggingface.co/datasets/GAIR/MathPile) | 
-[**Paper**]() | 
+[**Paper**](https://arxiv.org/abs/2312.17120) | 
 [**Limitations**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#limitations) |
 [**Statement & License**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#statements--license) |
 [**Citation**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#citation) 
@@ -22,7 +22,8 @@ High-quality, large-scale corpora are the cornerstone of building powerful found
 
 
 <div align="center">
-<img src=https://github.com/GAIR-NLP/MathPile/assets/46218454/028361f3-c70b-4787-b718-6af9e06aafa8 width=45%/>
+<!-- <img src=https://github.com/GAIR-NLP/MathPile/assets/46218454/028361f3-c70b-4787-b718-6af9e06aafa8 width=45%/> -->
+  <img src="./static/images/mathpile-features.png" width=45%/>
 </div>
 
 
@@ -36,7 +37,8 @@ High-quality, large-scale corpora are the cornerstone of building powerful found
 
 
 <div align="center">
-<img src=https://github.com/GAIR-NLP/MathPile/assets/46218454/8486ce7a-3036-4ede-867f-9e61038dcc70 width=70%/>
+<!-- <img src=https://github.com/GAIR-NLP/MathPile/assets/46218454/8486ce7a-3036-4ede-867f-9e61038dcc70 width=70%/> -->
+  <img src="./static/images/mathpile-overview.png" width=75%/>
 </div>
 
 <p>

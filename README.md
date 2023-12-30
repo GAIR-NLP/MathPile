@@ -1,6 +1,6 @@
 # Generative AI for Math: *MathPile*
 
-This is the official repository for [Generative AI for Math: Part I - MathPile: A Billion-Token-Scale Pretraining Corpus for Math]()
+This is the official repository for [Generative AI for Math: Part I - MathPile: A Billion-Token-Scale Pretraining Corpus for Math](https://huggingface.co/papers/2312.17120)
 
 [**Homepage**](https://gair-nlp.github.io/MathPile/) |
 [**Datasets**](https://huggingface.co/datasets/GAIR/MathPile) | 

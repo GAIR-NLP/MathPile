@@ -7,12 +7,14 @@ This is the official repository for [Generative AI for Math: Part I - MathPile: 
 [**Paper**](https://huggingface.co/papers/2312.17120) | 
 [**Limitations**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#limitations) |
 [**Statement & License**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#statements--license) |
-[**Citation**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#citation) 
+[**Citation**](https://github.com/GAIR-NLP/MathPile?tab=readme-ov-file#citation) |
+[**Featured By AK**](https://twitter.com/_akhaliq/status/1740571256234057798) 
 
 > Please be aware that our corpus could be updated (we will notify upon release). It is advisable to use the latest version.
 
 ## 🔥News
 
+- [2023/12/30] MathPile was featured on the Huggingface Datasets trending list. [[snapshot]](./static/hf-dataset-trending.png)
 - [2023/12/29] We released the [MathPile](https://huggingface.co/datasets/GAIR/MathPile), a 9.5B high-quality and diverse math-centric pre-training corpus.
 - [2023/12/28] We released the [technical report](https://huggingface.co/papers/2312.17120) of MathPile.
 

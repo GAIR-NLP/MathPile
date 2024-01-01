@@ -14,7 +14,7 @@ This is the official repository for [Generative AI for Math: Part I - MathPile: 
 
 ## 🔥News
 
-- [2023/12/30] MathPile was featured on the Huggingface Datasets trending list. [[snapshot]](./static/images/hf-dataset-trending.png)
+- [2023/12/30] MathPile was featured on the Hugging Face Datasets trending list. [[snapshot]](./static/images/hf-dataset-trending.png)
 - [2023/12/29] We released the [MathPile](https://huggingface.co/datasets/GAIR/MathPile), a 9.5B high-quality and diverse math-centric pre-training corpus.
 - [2023/12/28] We released the [technical report](https://huggingface.co/papers/2312.17120) of MathPile.
 

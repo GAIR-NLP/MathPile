@@ -76,7 +76,7 @@ If you find our work useful or use MathPile, please cite our paper:
 ```
 @article{wang2023mathpile,
       title={Generative AI for Math: Part I -- MathPile: A Billion-Token-Scale Pretraining Corpus for Math},
-      author={Wang, Zengzhi and Xia, Rui and Liu Pengfei},
+      author={Wang, Zengzhi and Xia, Rui and Liu, Pengfei},
       journal={arXiv preprint arXiv:2312.17120},
       year={2023}
 }

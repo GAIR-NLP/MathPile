@@ -14,6 +14,7 @@ This is the official repository for [Generative AI for Math: Part I - MathPile: 
 
 ## 🔥News
 
+- [2024/06/23] We released the data processing scripts, available at the `src` dir.
 - [2024/01/06] We released the commercial-use version of MathPile, namely [MathPile_Commercial](https://huggingface.co/datasets/GAIR/MathPile_Commercial).
 - [2024/01/06] We released a new version (`v0.2`, a cleaner version) of MathPile. See our [HF dataset homepage](https://huggingface.co/datasets/GAIR/MathPile) for more details.
 - [2023/12/30] MathPile was featured on the Hugging Face Datasets trending list. [[snapshot]](./static/images/hf-dataset-trending.png)
@@ -66,6 +67,18 @@ We hope our MathPile can help to enhance the mathematical reasoning abilities of
 
 
 If the source data of MathPile is governed by a license more restrictive than [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en), MathPile adheres to that stricter licensing. In all other cases, it operates under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) license. We also plan to release a commercially usable version of the dataset soon.
+
+
+## 🌟Projects Using MathPile
+
+Below are some projects that use MathPile, covering scenarios including but not limited to pre-training, data synthesis, and benchmarking:
+
+- [Quality or Quantity? Comparing Domain-Adaptive Pre-training Approaches for Language Models with Mathematical Understanding](https://web.stanford.edu/class/cs224n/final-reports/256838758.pdf) [Stanford CS224N Custom Project]
+- [JiuZhang3.0: Efficiently Improving Mathematical Reasoning by Training Small Data Synthesis Models](https://arxiv.org/abs/2405.14365)
+- [Task Oriented In-Domain Data Augmentation](https://arxiv.org/abs/2406.16694)
+- [Great Memory, Shallow Reasoning: Limits of $k$NN-LMs](https://arxiv.org/abs/2408.11815)
+- [BAM! Just Like That: Simple and Efficient Parameter Upcycling for Mixture of Experts](https://arxiv.org/abs/2408.08274)
+- ...
 
 
 

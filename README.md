@@ -14,6 +14,7 @@ This is the official repository for [Generative AI for Math: Part I - MathPile: 
 
 ## 🔥News
 
+- [2024/09/26] Our paper has been accepted by NeurIPS D&B Track 2024 🎉
 - [2024/06/23] We released the data processing scripts, available at the `src` dir.
 - [2024/01/06] We released the commercial-use version of MathPile, namely [MathPile_Commercial](https://huggingface.co/datasets/GAIR/MathPile_Commercial).
 - [2024/01/06] We released a new version (`v0.2`, a cleaner version) of MathPile. See our [HF dataset homepage](https://huggingface.co/datasets/GAIR/MathPile) for more details.

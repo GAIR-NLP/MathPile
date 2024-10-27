@@ -79,6 +79,8 @@ Below are some projects that use MathPile, covering scenarios including but not 
 - [Task Oriented In-Domain Data Augmentation](https://arxiv.org/abs/2406.16694)
 - [Great Memory, Shallow Reasoning: Limits of $k$NN-LMs](https://arxiv.org/abs/2408.11815)
 - [BAM! Just Like That: Simple and Efficient Parameter Upcycling for Mixture of Experts](https://arxiv.org/abs/2408.08274)
+- [SciDFM: A Large Language Model with Mixture-of-Experts for Science](https://arxiv.org/abs/2409.18412)
+- [MIND: Math Informed syNthetic Dialogues for Pretraining LLMs](https://arxiv.org/abs/2410.12881)
 - ...
 
 

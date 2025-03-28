@@ -90,11 +90,13 @@ Below are some projects that use MathPile, covering scenarios including but not 
 If you find our work useful or use MathPile, please cite our paper:
 
 ```
-@article{wang2023mathpile,
-      title={Generative AI for Math: Part I -- MathPile: A Billion-Token-Scale Pretraining Corpus for Math},
-      author={Wang, Zengzhi and Xia, Rui and Liu, Pengfei},
-      journal={arXiv preprint arXiv:2312.17120},
-      year={2023}
+@inproceedings{
+wang2024mathpile,
+title={MathPile: A Billion-Token-Scale Pretraining Corpus for Math},
+author={Zengzhi Wang and Xuefeng Li and Rui Xia and Pengfei Liu},
+booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2024},
+url={https://openreview.net/forum?id=RSvhU69sbG}
 }
 ```
 

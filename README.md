@@ -81,6 +81,8 @@ Below are some projects that use MathPile, covering scenarios including but not 
 - [BAM! Just Like That: Simple and Efficient Parameter Upcycling for Mixture of Experts](https://arxiv.org/abs/2408.08274)
 - [SciDFM: A Large Language Model with Mixture-of-Experts for Science](https://arxiv.org/abs/2409.18412)
 - [MIND: Math Informed syNthetic Dialogues for Pretraining LLMs](https://arxiv.org/abs/2410.12881)
+- [Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach](https://arxiv.org/abs/2502.05171)
+- [2 OLMo 2 Furious](https://arxiv.org/abs/2501.00656)
 - ...
 
 
